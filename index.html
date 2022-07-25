@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- BOOTSTRAP CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <!-- FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- HEADER SECTION START  
+=================================================-->
+<header class="container py-3">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <form class="d-flex d-none d-md-block search-form" role="search">
+                <input class="form-control me-2 rounded-pill search-input" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success d-none d-lg-block" type="submit"><i class="search-btn fa-solid fa-magnifying-glass"></i></button>
+              </form>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </div>
+</header>
+
+
+<!-- BANNER SECTION START  
+=================================================-->
+<section>
+  <div class="container">
+    <div class="row">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="slider-1 carousel-item active p-5 rounded-4 bg-warning">
+                    <div class="row">
+
+                      <div class="col-md-5 col-sm-12 d-md-none">
+                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                      </div>
+
+                        <div class="col-md-7 d-flex flex-column justify-content-center col-sm-12">
+                            <div class="pe-5 pe-md-0">
+                                <h2 class="slider-text fw-bolder fs-1 mb-3">Mi LED TV 4A PRO 32</h2>
+                                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                 <p class="text-danger fw-bolder fs-1">$1289</p>
+                                <a href="#" class="btn btn-danger">Buy Now <i class="fa-solid fa-right-long"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 col-sm-12 d-none d-md-block">
+                          <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</div>
+</section>
+
+
+<!-- Categories SECTION START  
+=================================================-->
+<section>
+  <div class="container">
+    <h2 class="fw-bolder title">Categories</h2>
+    <div class="row">
+      <div class="col-md-4 col-lg-4">
+        <div class="d-flex bg-warning rounded-4 justify-content-around py-2 m-1">
+          <h3 class="d-flex flex-column justify-content-center align-items-cente text-white fs-1">watch</h3>
+          <img class="img-fluid" src="images/categories/watch.png" alt="">
+        </div>
+      </div>
+     
+      <div class="col-md-4 col-lg-4">
+        <div class="d-flex bg-primary rounded-4 justify-content-around py-2 m-1">
+          <h3 class="d-flex flex-column justify-content-center align-items-cente text-white fs-1">watch</h3>
+          <img class="img-fluid" src="images/categories/shoes.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4">
+        <div class="d-flex bg-danger rounded-4 justify-content-around py-2 m-1">
+          <h3 class="d-flex flex-column justify-content-center align-items-cente text-white fs-1">watch</h3>
+          <img class="img-fluid" src="images/categories/bag.png" alt="">
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- Shoes SECTION START  
+=================================================-->
+<section class="shoes">
+  <div class="container">
+    <h2 class="fw-bolder title">shoes</h2>
+    <div class="row">
+
+      <div class="col-md-4 col-lg-4">
+        <div class="text-center bg-white rounded-4 py-5 px-3 m-2">
+          <img class="img-fluid" src="images/shoes/shoe-1.png" alt="">
+          <h3 class="fw-bolder">Reebok Dark Men's Shoes</h3>
+          <p class="product-details">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+          <p class="fs-2 text-danger fw-bolder">$1289</p>
+          <a href="#" class="btn btn-dark py-2 px-4">Buy Now <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4">
+        <div class="text-center bg-white rounded-4 py-5 px-3 m-2">
+          <img class="img-fluid" src="images/shoes/shoe-2.png" alt="">
+          <h3 class="fw-bolder">Reebok Dark Men's Shoes</h3>
+          <p class="product-details">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+          <p class="fs-2 text-danger fw-bolder">$1289</p>
+          <a href="#" class="btn btn-dark py-2 px-4">Buy Now <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-4">
+        <div class="text-center bg-white rounded-4 py-5 px-3 m-2">
+          <img class="img-fluid" src="images/shoes/shoe-3.png" alt="">
+          <h3 class="fw-bolder">Reebok Dark Men's Shoes</h3>
+          <p class="product-details">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+          <p class="fs-2 text-danger fw-bolder">$1289</p>
+          <a href="#" class="btn btn-dark py-2 px-4">Buy Now <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+
+      <a href="#" class="see-all text-danger fw-bold fs-6 text-decoration-none">See All</a>
+
+      <h2 class="fw-bolder title">Backpack</h2>
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <div class="text-center bg-white rounded-4 py-5 px-3 m-2">
+            <img class="img-fluid" src="images/bags/bag-1.png" alt="">
+            <h3 class="fw-bolder">Reebok Dark Men's Shoes</h3>
+            <p class="product-details">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <p class="fs-2 text-danger fw-bolder">$1289</p>
+            <a href="#" class="btn btn-dark py-2 px-4">Buy Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4">
+          <div class="text-center bg-white rounded-4 py-5 px-3 m-2">
+            <img class="img-fluid" src="images/bags/bag-2.png" alt="">
+            <h3 class="fw-bolder">Reebok Dark Men's Shoes</h3>
+            <p class="product-details">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <p class="fs-2 text-danger fw-bolder">$1289</p>
+            <a href="#" class="btn btn-dark py-2 px-4">Buy Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4">
+          <div class="text-center bg-white rounded-4 py-5 px-3 m-2">
+            <img class="img-fluid" src="images/bags/bag-3.png" alt="">
+            <h3 class="fw-bolder">Reebok Dark Men's Shoes</h3>
+            <p class="product-details">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            <p class="fs-2 text-danger fw-bolder">$1289</p>
+            <a href="#" class="btn btn-dark py-2 px-4">Buy Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- Shoes SECTION START  
+=================================================-->
+<footer>
+  <div class="container rounded-4">
+    <div class="subscribe row d-flex justify-content-center align-items-cente text-center m-auto">
+        <h2 class="fw-bolder text-center">LET'S STAY IN TOUCH</h2>
+        <p>Get updates on sales, specials and more</p>
+          <form class="d-flex justify-content-center">
+              <div class="w-75">
+                  <input type="email" class="subcribe-form form-control py-2" id="exampleInputEmail1"
+                      aria-describedby="emailHelp">
+              </div>
+              <button type="submit" class="submit btn btn-primary g-color-btn rounded py-2">Submit</button>
+          </form>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- BOOTSTRAP JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

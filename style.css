@@ -1,0 +1,107 @@
+section{
+    margin-bottom: 100px;
+}
+.title{
+    margin: 50px 0;
+    text-transform: capitalize;
+}
+.navbar-collapse {
+    flex-grow: inherit;
+}
+.search-form{
+    width: 30%;
+}
+.search-input {
+    position: relative;
+    background: #F8F9FA;
+}
+.search-input:focus{
+    box-shadow: none;
+    border: none;
+}
+button.btn.btn-outline-success {
+    border: none;
+    color: gray;
+    position: absolute;
+    left: 55%;
+}
+button.btn.btn-outline-success:hover {
+    background-color: transparent;
+}
+button.btn.btn-outline-success:active, button.btn.btn-outline-success:focus {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+/.slider-1{
+    background-color: #FEEAE9;
+}
+
+
+.shoes{
+    padding: 20px 0 80px;
+    background-color: #FEEAE9;
+}
+.shoes .product-details{
+    font-size: 18px;
+}
+.see-all {
+    text-align: right;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+footer .container{
+    padding: 100px 0;
+    margin-bottom: 50px;
+    background-color: #FEEAE9;
+}
+
+.subcribe-form {
+    line-height: 2.5em;
+}
+
+.submit {
+    background: #FF3886;
+    border: none;
+    padding: 0px 30px 0;
+    margin-left: -13px;
+}
+.subscribe{
+    width: 50%;
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+/@media (min-width: 576px) {
+    section {
+        margin-bottom: 50px;
+    }
+    .title {
+        margin: 20px 0;
+        margin-left: 15px;
+    }
+    .subscribe{
+        width: 80%;
+    }
+    footer .container {
+        padding: 50px 0;
+    }
+}
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px)  */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px)  */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px)  */
